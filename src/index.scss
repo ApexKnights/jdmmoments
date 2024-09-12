@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
+}
+
+.hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./assets/hbackground.png");
+}
+.about {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./assets/aboutBG.png");
+  background-blend-mode: overlay;
+}
+
+.slick-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #ffcb34;
+}
+
+.slick-track {
+  position: static;
+}
+
+.productModal {
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #222222;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: #fbfc34;
+  }
+}

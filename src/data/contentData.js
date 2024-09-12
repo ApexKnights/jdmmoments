@@ -1,0 +1,4 @@
+export const aboutData = {
+    title: "About Us",
+    desc: "At JDM Moments, we believe jewellery is more than just an accessory—it’s an expression of identity, culture, and emotion. As an artisanal jewellery design studio, we specialize in creating bespoke, handcrafted jewellery that marries traditional techniques with contemporary aesthetics. With a passion for the art of jewellery making, we offer an array of collections, including diamond, polki, Victorian, and kundan, all meticulously crafted to perfection. Our mission is to bring beauty, sophistication, and craftsmanship into the hands of those who appreciate fine jewellery art."
+}
