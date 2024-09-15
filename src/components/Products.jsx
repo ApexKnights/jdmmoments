@@ -40,7 +40,7 @@ const Products = ({ img, price, name, obj }) => {
                                     </div>
                                 }
 
-                                <img src={e?.img} alt="" className='w-[200px] h-[200px] object-contain' onClick={() => openImageModal(e)} />
+                                <img src={e?.img} alt="" className={`w-[200px] h-[200px] object-contain ${!e?.free ? "blur-md" : null}`} onClick={() => openImageModal(e)} />
                             </div>
                             <div className='h-[25%] w-[100%] bg-[#1b1a18] px-4 flex justify-between items-center'>
                                 <div className="flex flex-col gap-2">

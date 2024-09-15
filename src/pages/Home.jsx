@@ -110,7 +110,7 @@ const Home = () => {
             {/* Map */}
             <div className='min-h-[60vh] w-[100%] bg-[#222222] px-6 md:px-20 flex flex-col md:flex-row gap-10 md:gap-0'>
                 <div className=" w-[100%] md:w-[30%] flex items-start flex-col justify-center gap-6">
-                    <h2 className='text-[30px] text-white font-[800]'>Jewellery Designer Monoj</h2>
+                    <h2 className='text-[30px] text-white font-[800]'>Jewellery Designer Manoj</h2>
                     <h3 className='text-lg text-white font-[800]'>Phone - +918074855484</h3>
                     <h3 className='text-lg text-white font-[800]'>Email - manojpatra615@gmail.com</h3>
                     <h3 className='text-lg text-white font-[800]'>
